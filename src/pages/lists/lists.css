@@ -1,0 +1,36 @@
+.lists{
+    width: 100%;
+    padding: 4rem;
+}
+.list-table{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+table{
+    width: 100%;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    & tr{
+        border: 1px solid grey;
+    }
+    & th{
+        font-size: 1.5rem;
+        color: grey;
+        padding: 1rem;
+    }
+    & td{
+        text-align: center;
+        font-size: 1.3rem;
+        padding: 1rem;
+    }
+    & img{
+        height: 6rem;
+        width: 6rem;
+    }
+}
+#x{
+    font-size: 4rem;
+    font-weight: 300;
+}

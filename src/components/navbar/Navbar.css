@@ -1,0 +1,101 @@
+.navbar{
+    height: 8rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12rem 0 10rem;
+}
+.navbar>img{
+    width: 15rem;
+}
+li{
+    list-style: none;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    font-size: 1.7rem;
+}
+.other{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    & button{
+        height: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2rem;
+        width: 10rem;
+        border: 1px solid tomato;
+        font-size: 1.4rem;
+        cursor: pointer;
+        transition: all 0.2s ease-in;
+
+    }
+    & button:hover{
+        background-color: #fff4f2;
+
+    }
+}
+.basket1{
+    position: relative;
+    height: auto;
+    width: 4rem;
+    /* height: 5rem; */
+    /* background-color: red; */
+
+}
+
+.basket1::after{
+    position: absolute;
+    content: "";
+    height: 0.8rem;
+    top: 0;
+    z-index: 4;
+    left: 3rem;
+    width: 0.8rem;
+    background-color:tomato;
+    border-radius: 50%;
+}
+
+
+
+.nav-profile-dropdown{
+    position: absolute;
+    display: none;
+    right: 10rem;
+     height: auto;
+    width: auto;
+    z-index: 1;
+    & li{
+        overflow: hidden;
+        font-size: 1.6rem;  
+        height: 100%;
+        width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        
+
+    }
+    
+}
+.navbar-profile:hover .nav-profile-dropdown  {
+    display: flex;
+    height: 11rem;
+    width: 20rem;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff2ef;
+    padding: 12px 25px;
+    border-radius: 4px;
+    outline: 2px solid white;
+    list-style: none;
+    /* border: 1px solid tomato; */
+
+  
+}
+
