@@ -1,14 +1,9 @@
 import { createContext, useEffect, useState } from "react";
 import axios from 'axios'
 
-
-
-
-
-
 export const StoreContext = createContext(null);
 const StoreContextProvider = (props) => {
-    let url = import.meta.env.VITE_URL;
+    let url = "https://tomato-backend-yv6w.onrender.com";
     let [food_list, setFood_list] = useState([])
     let [cartitems, setcartItems] = useState({});
     let [total, setTotal] = useState(0);
