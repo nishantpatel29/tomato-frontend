@@ -13,7 +13,7 @@ This is the **frontend for the Tomato project**, built using **React 18**, **Vit
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/tomato-frontend.git
+git clone git@github.com:nishantpatel29/tomato-frontend.git
 cd tomato-frontend
 
 
