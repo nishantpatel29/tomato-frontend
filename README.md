@@ -6,43 +6,7 @@ This is the **frontend for the Tomato project**, built using **React 18**, **Vit
 
 ---
 
-## ⚙️ Tech Stack
 
-- **React 18**
-- **Vite** for lightning-fast development and build
-- **React Router v6** for client-side routing
-- **Context API** for global state
-- **Axios** for API requests
-- **React Toastify** for alerts/notifications
-- **ESLint** with React plugins for linting
-
----
-
-## 🗂️ Folder Structure
-frontend/
-├── public/
-│ └── android-chrome-512x512.png
-├── src/
-│ ├── assets/ # Images, logos, etc.
-│ ├── components/
-│ │ ├── footer/
-│ │ ├── loginPopUp/ # Login modal (Login.jsx, login.css)
-│ │ ├── navbar/
-│ │ └── sidebar/
-│ ├── contexts/
-│ │ └── Storecontext.jsx # Context provider
-│ ├── pages/
-│ │ ├── Admin.jsx
-│ │ ├── App.jsx # Main component with routes
-│ ├── index.css
-│ └── main.jsx # React DOM entry point
-├── .env # Environment variables
-├── index.html # HTML template
-├── package.json
-├── vite.config.js
-└── README.md
-
----
 
 ## 🚀 Getting Started
 
